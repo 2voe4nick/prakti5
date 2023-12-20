@@ -50,7 +50,7 @@ spec:
         // Поміняйте APP_NAME на ваше імʼя та прізвище.
         // Поміняйте DOCKER_IMAGE_NAME по формату ваше імʼя аккаунту в Docker та імʼя образу
         APP_NAME = 'molev_vadim'
-        DOCKER_IMAGE_NAME = '2voe4nick/prakti5'
+        DOCKER_IMAGE_NAME = '2voe4nik/prakti5'
     }
 
     stages {

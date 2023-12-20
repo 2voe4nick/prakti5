@@ -3,3 +3,11 @@ kind: Service
 metadata:
   name: labfive
 # TODO: Ваш код. Переконайтеся, що Service відкриває port 80, але перекидає це на targetPort 8080
+spec:
+  selector:
+    app: labfive
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: ClusterIP 
